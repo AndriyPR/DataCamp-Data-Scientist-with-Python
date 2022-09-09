@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from datetime import date, datetime, timezone, timedelta
 from dateutil import tz
 import pickle
+# Непогана бібліотека. При розробці ПО по прогнозуванню, може зекономити трохи часу.
+import pendulum
 
 # Importing course datasets
 rides = pd.read_csv('data/19/capital-onebike.csv')
